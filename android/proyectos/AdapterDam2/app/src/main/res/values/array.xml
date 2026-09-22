@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cursos">
+        <item>JoseLuis</item>
+        <item>Faker</item>
+        <item>Antonio</item>
+        <item>Lander</item>
+        <item>Cuchi</item>
+        <item>Fernando</item>
+        <item>alfredo</item>
+        <item>Abecedario</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".fragmentos.FragmentoArriba">
+    <EditText
+        android:id="@+id/etTexto"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Escribe un texto"
+        android:inputType="text"
+        android:autofillHints="" />
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enviar" />
+</LinearLayout>

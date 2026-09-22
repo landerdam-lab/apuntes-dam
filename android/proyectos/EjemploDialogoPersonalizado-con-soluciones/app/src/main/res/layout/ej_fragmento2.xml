@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Apellido"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Fecha"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnFicha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ficha" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pikachus">
+        <item>@drawable/pikachu1</item>
+        <item>@drawable/pikachu2</item>
+        <item>@drawable/pikachu3</item>
+        <item>@drawable/pikachu4</item>
+        <item>@drawable/pikachu5</item>
+        <item>@drawable/pikachu6</item>
+        <item>@drawable/pikachu7</item>
+        <item>@drawable/pikachu8</item>
+        <item>@drawable/pikachu9</item>
+        <item>@drawable/pikachu10</item>
+    </string-array>
+</resources>

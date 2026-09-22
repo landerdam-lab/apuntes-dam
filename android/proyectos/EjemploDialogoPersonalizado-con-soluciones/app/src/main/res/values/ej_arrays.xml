@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ej_cursos">
+        <item>DAM 1</item>
+        <item>DAM 2</item>
+        <item>ASIR 1</item>
+        <item>ASIR 2</item>
+    </string-array>
+
+    <!-- Fotogramas de la animacion (nivel 4) y paisajes del GridView -->
+    <string-array name="ej_paisajes">
+        <item>@drawable/ej_paisaje1</item>
+        <item>@drawable/ej_paisaje2</item>
+        <item>@drawable/ej_paisaje3</item>
+        <item>@drawable/ej_paisaje4</item>
+        <item>@drawable/ej_paisaje5</item>
+        <item>@drawable/ej_paisaje6</item>
+    </string-array>
+</resources>

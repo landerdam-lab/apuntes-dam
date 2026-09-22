@@ -1,0 +1,37 @@
+EjemploDialogoPersonalizado - CON SOLUCIONES
+============================================
+
+Este proyecto es una COPIA del proyecto original con:
+
+  1) Las MEJORAS del nivel 7 ya aplicadas (mensaje del AlertDialog, orden correcto en
+     AppExecutors, aviso en el login, Actualizar sin seleccionar, validacion con
+     TextWatcher en los 3 campos, usuarios repetidos rechazados con una @Query).
+     -> Ficheros: RegisterActivity, LoginDialogFrag, UsuariosDao, AppExecutors.
+
+  2) Las SOLUCIONES de los niveles 1-6 y los simulacros A, B y D, en el paquete  ej/
+     (una Activity por ejercicio, con sus layouts res/layout/ej_*.xml).
+     Estan hechas con el estilo de clase: clases anonimas, Bundle, AppExecutors,
+     AsyncTask, adaptadores propios, GridView, Spinner personalizado, Glide, Picasso...
+
+  3) Dependencias nuevas en app/build.gradle.kts: Glide, Picasso y RecyclerView.
+     El manifiesto lleva el permiso INTERNET (para el ejercicio de Picasso).
+
+COMO USARLO
+-----------
+  - Descomprime el zip y abre la carpeta EjemploDialogoPersonalizado con Android Studio
+    (File > Open). Espera a que termine Gradle (Sync).
+  - Al ejecutar la app aparecen DOS iconos en el movil:
+        "EjemploDialogoPersonalizado"  -> la app original (login + registro)
+        "Ejercicios"                   -> un menu que abre cada solucion con un toque
+  - Cada ejercicio esta explicado paso a paso en:
+        Desktop\android\documentacion\ejercicios\
+
+NOTAS
+-----
+  - Usalo para COMPARAR con lo que hagas tu, no para copiar.
+  - Comparte applicationId con tu app original: si la instalas en un dispositivo donde
+    ya tienes la original, la ACTUALIZA (los datos de la base de datos se conservan).
+  - Si Android Studio dice "incompatible version of the Android Gradle plugin", mira
+    documentacion\guias\01-ejecutar-la-app.md (apartado 2): hay que bajar 'agp' en
+    gradle\libs.versions.toml o actualizar Android Studio.
+  - Verificado: compila y las soluciones se probaron en un emulador (Android 17).

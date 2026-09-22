@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fragmentos.Fragmento2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Escribe un nombre"
+            android:inputType="text"
+            android:autofillHints=""
+            android:id="@+id/etNombre"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Apellido"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Escribe un apellido"
+            android:inputType="text"
+            android:autofillHints=""
+            android:id="@+id/etApellido"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Fecha de nacimiento"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Escribe una fecha"
+            android:inputType="text"
+            android:autofillHints=""
+            android:id="@+id/etFecha"/>
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Ficha"
+        android:id="@+id/btnFicha" />
+
+</LinearLayout>

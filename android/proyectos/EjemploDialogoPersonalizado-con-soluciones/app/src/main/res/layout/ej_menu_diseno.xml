@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAC1E2"
+    android:orientation="vertical">
+
+    <!-- CABECERA: 0.5 partes de 5 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/ej_cabecera"
+        android:gravity="center">
+
+        <TextView
+            style="@style/ej_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu principal" />
+    </LinearLayout>
+
+    <!-- CUERPO: 4 partes de 5, rejilla 2 x 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <!-- Celda: boton (peso 3) + etiqueta (peso 1) -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageButton
+                android:id="@+id/btnNuevo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@drawable/ej_boton_pulsado"
+                android:contentDescription="Nuevo" />
+
+            <TextView
+                style="@style/ej_titulo.sombreado"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Nuevo" />
+        </LinearLayout>
+
+        <!-- Celda: boton (peso 3) + etiqueta (peso 1) -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageButton
+                android:id="@+id/btnToast"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@drawable/ej_boton_pulsado"
+                android:contentDescription="Toast" />
+
+            <TextView
+                style="@style/ej_titulo.sombreado"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Toast" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <!-- Celda: boton (peso 3) + etiqueta (peso 1) -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageButton
+                android:id="@+id/btnAsync"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@drawable/ej_boton_pulsado"
+                android:contentDescription="Animacion" />
+
+            <TextView
+                style="@style/ej_titulo.sombreado"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Animacion" />
+        </LinearLayout>
+
+        <!-- Celda: boton (peso 3) + etiqueta (peso 1) -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageButton
+                android:id="@+id/btnFrames"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@drawable/ej_boton_pulsado"
+                android:contentDescription="Frames" />
+
+            <TextView
+                style="@style/ej_titulo.sombreado"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Frames" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- PIE: 0.5 partes de 5 -->
+    <TextView
+        style="@style/ej_titulo.subTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Diseno de Interfaces - DAM" />
+
+</LinearLayout>

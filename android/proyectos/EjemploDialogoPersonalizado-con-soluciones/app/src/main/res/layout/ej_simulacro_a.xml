@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="ListView"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Spinner"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnGridView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="GridView"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnGridRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="GridView (Recycler)"
+        android:textSize="30sp" />
+
+</LinearLayout>

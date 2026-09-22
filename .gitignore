@@ -2,3 +2,14 @@
 **/.obsidian/workspace.json
 **/.obsidian/workspace-mobile.json
 **/.obsidian/cache
+
+# Android/Gradle: artefactos generados al compilar cada proyecto, no son código fuente
+**/build/
+**/.gradle/
+**/.idea/
+**/.cxx/
+**/captures/
+**/local.properties
+**/*.iml
+**/*.apk
+**/*.aab

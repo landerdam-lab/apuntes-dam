@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/ivToast"
+        android:src="@drawable/users"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvToast"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text="Nombre"
+        style="@style/titulo"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombre"
+        android:textSize="40sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPassword"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text="Password"
+        style="@style/titulo"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:textSize="40sp"
+        android:gravity="center" />
+
+</LinearLayout>

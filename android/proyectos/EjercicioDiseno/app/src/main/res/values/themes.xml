@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EjercicioDiseno" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.EjercicioDiseno" parent="Base.Theme.EjercicioDiseno">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="titulo">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/tamanoTitulo</item>
+    </style>
+    <style name="titulo.subTitulo">
+        <item name="android:textSize">@dimen/tamanoSubTitulo</item>
+    </style>
+    <style name="titulo.sombreado">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1.8</item>
+    </style>
+
+</resources>

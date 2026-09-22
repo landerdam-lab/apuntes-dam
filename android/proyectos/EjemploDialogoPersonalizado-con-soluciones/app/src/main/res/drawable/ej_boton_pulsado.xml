@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Mientras se mantiene pulsado: otra imagen -->
+    <item android:drawable="@drawable/ej_boton_pulsado_shape" android:state_pressed="true" />
+    <!-- Estado normal (item SIN estado: siempre el ULTIMO) -->
+    <item android:drawable="@drawable/ej_boton_normal" />
+</selector>

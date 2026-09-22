@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EjercicioDiseno</string>
+    <string name="titulo">AGENDA CONTACTOS</string>
+    <string name="pie">Fin Del Diseño</string>
+    <string name="subpie">Centro De estudios Almi</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="calendario">Calendario</string>
+    <string name="contactos">Contactos</string>
+    <string name="opciones">Opciones</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ej_imagenes">
+        <item>@drawable/ej_andando1</item>
+        <item>@drawable/ej_andando2</item>
+        <item>@drawable/ej_andando3</item>
+        <item>@drawable/ej_andando4</item>
+    </string-array>
+</resources>
