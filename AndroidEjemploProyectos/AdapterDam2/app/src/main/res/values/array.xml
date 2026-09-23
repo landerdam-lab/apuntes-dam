@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cursos">
+        <item>Dam1</item>
+        <item>Dam2</item>
+        <item>Asir1</item>
+        <item>Asir2</item>
+        <item>Smr1</item>
+        <item>Smr2</item>
+        <item>Af1</item>
+        <item>Af2</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cursos">
+        <item>DAM 1</item>
+        <item>DAM 2</item>
+        <item>ASIR 1</item>
+        <item>ASIR 2</item>
+    </string-array>
+    <string-array name="imagenes">
+        <item>@drawable/andando1</item>
+        <item>@drawable/andando2</item>
+        <item>@drawable/andando3</item>
+        <item>@drawable/andando4</item>
+    </string-array>
+</resources>

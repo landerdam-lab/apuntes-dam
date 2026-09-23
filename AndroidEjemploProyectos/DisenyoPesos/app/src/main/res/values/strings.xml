@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DisenyoPesos</string>
+    <string name="titulo1">Centro de Estudios Almi Ikastetxea</string>
+    <string name="curso">DAM 2</string>
+    <string name="toast">TOAST</string>
+    <string name="asynctask">ASYNCTASK</string>
+    <string name="adapter">ADAPTER</string>
+    <string name="frame">FRAME BY FRAME</string>
+    <string name="tween">TWEEN</string>
+    <string name="property">PROPERTY</string>
+    <string name="pie">www.almi.eus</string>
+</resources>

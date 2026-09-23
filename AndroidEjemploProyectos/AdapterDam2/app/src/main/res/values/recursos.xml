@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paisajes">
+        <item>@drawable/paisaje1</item>
+        <item>@drawable/paisaje2</item>
+        <item>@drawable/paisaje3</item>
+        <item>@drawable/paisaje4</item>
+        <item>@drawable/paisaje5</item>
+        <item>@drawable/paisaje6</item>
+        <item>@drawable/paisaje7</item>
+        <item>@drawable/paisaje8</item>
+        <item>@drawable/paisaje9</item>
+        <item>@drawable/paisaje10</item>
+    </string-array>
+</resources>

@@ -13,3 +13,6 @@
 **/*.iml
 **/*.apk
 **/*.aab
+
+# Zip original (164 MB, supera el limite de 100 MB de GitHub); su contenido esta descomprimido en AndroidEjemploProyectos/
+AndroidEjemploProyectos.zip
