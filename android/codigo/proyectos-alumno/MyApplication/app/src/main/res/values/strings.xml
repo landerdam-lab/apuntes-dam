@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="menu_Inicio">Inicio</string>
+    <string name="menu_Mapa">Mapa</string>
+    <string name="menu_Galeria">Galeria</string>
+    <string name="abrir_menu">Abrir menú</string>
+</resources>
