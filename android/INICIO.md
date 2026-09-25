@@ -116,6 +116,7 @@ Resumen, orden recomendado y comparación con tus proyectos: [Mapa de proyectos]
 | [EjercicioFragmentos](05-proyectos-alumno/EjercicioFragmentos.md) | ✅ | 3 fragmentos, `Serializable` en un GridView |
 | [EjemploFragmentos](05-proyectos-alumno/EjemploFragmentos.md) | ✅ | Ejemplo guía de fragmentos + menú |
 | [EjemploDialogoPersonalizado](05-proyectos-alumno/EjemploDialogoPersonalizado.md) | ✅ | Login + registro con Room, explicado línea a línea |
+| [MyApplication](05-proyectos-alumno/MyApplication.md) | ✅ | Toolbar + menú lateral (drawer) con foto, lista de un array con adaptador, mapa de Mapbox con pin |
 | [equiposFutbol](05-proyectos-alumno/equiposFutbol.md) | ⚠️ | Lista de equipos; bug de `Intent` duplicado explicado |
 | [FragmentosNombres](05-proyectos-alumno/FragmentosNombres.md) | ⚠️ | 3 fragmentos; dos bugs reales explicados |
 | [anclados](05-proyectos-alumno/anclados.md) · [EjercicioSergio](05-proyectos-alumno/EjercicioSergio.md) · [Pokemons](05-proyectos-alumno/Pokemons.md) | 🌱 | Esqueletos |

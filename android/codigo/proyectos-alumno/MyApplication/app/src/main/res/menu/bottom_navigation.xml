@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Opciones del menu lateral. Lo usa el NavigationView de activity_main.xml (app:menu).
+     Los ids de cada item son los que se comprueban en MainActivity con item.getItemId() -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
+    <!-- checkableBehavior="single" = solo puede estar marcada una opcion a la vez -->
     <group android:checkableBehavior="single">
+        <!-- Cada item: id para el Java, icono (res/drawable) y texto (strings.xml) -->
         <item
             android:id="@+id/nav_Inicio"
             android:icon="@drawable/icono_inicio"

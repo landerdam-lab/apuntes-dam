@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Diseño del fragmento de Mapa: un mapa de Mapbox que ocupa toda la pantalla.
+     El pin rojo no esta aqui: lo pone MapaFragment.java desde el codigo -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".fragmentos.MapaFragment">
 
-    <!-- Aqui va lo que quieras que salga en la ventana de Mapa -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/menu_Mapa"
-        android:textSize="40sp" />
-
+    <!-- El mapa. Se centra en la ubicacion de cameraTargetLat/Lng con el zoom de cameraZoom
+         (cuanto mas alto, mas cerca). El token lo coge solo de values/mapbox_access_token.xml -->
+    <com.mapbox.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="43.271846691282065"
+        mapbox:mapbox_cameraTargetLng="-2.948931073628467"
+        mapbox:mapbox_cameraZoom="14.0" />
 </LinearLayout>

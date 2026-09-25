@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cursos">
+        <item>DAM 1</item>
+        <item>DAM 2</item>
+        <item>SMR 1</item>
+        <item>SMR 2</item>
+        <item>GA 1</item>
+        <item>GA 2</item>
+    </string-array>
+</resources>

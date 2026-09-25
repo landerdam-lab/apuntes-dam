@@ -1,8 +1,16 @@
 <resources>
+    <!-- Nombre de la app (sale debajo del icono) -->
     <string name="app_name">My Application</string>
 
+    <!-- Textos de las opciones del menu lateral (y de los fragmentos de Mapa y Galeria) -->
     <string name="menu_Inicio">Inicio</string>
     <string name="menu_Mapa">Mapa</string>
     <string name="menu_Galeria">Galeria</string>
+    <!-- Descripcion del boton flotante, la lee TalkBack (accesibilidad) -->
     <string name="abrir_menu">Abrir menú</string>
+    <string name="cerrar_menu">Cerrar menú</string>
+
+    <!-- Textos de la cabecera del menu lateral -->
+    <string name="almi">Almi</string>
+    <string name="almi_telefono">944103837</string>
 </resources>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Diseño del fragmento de Inicio: el logo arriba y una lista debajo, uno detras de otro en vertical -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -6,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".fragmentos.InicioFragment">
 
+    <!-- Logo de 100x100, centrado en horizontal -->
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -13,6 +15,13 @@
         android:layout_marginTop="16dp"
         android:src="@drawable/logo" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CURSOS:"/>
+
+    <!-- Lista (de momento vacia, no tiene adaptador).
+         height="0dp" + weight="1" = ocupa todo el espacio que sobra debajo del logo -->
     <ListView
         android:id="@+id/lvInicio"
         android:layout_width="match_parent"

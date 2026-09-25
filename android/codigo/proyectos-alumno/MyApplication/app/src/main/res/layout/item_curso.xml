@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diseño de UNA fila de la lista de Inicio.
+     horizontal = el punto y el texto uno al lado del otro.
+     gravity="center_vertical" = el punto queda a la altura de la mitad del texto -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp">
+
+    <!-- El punto negro: una vista de 8x8 con el circulo de res/drawable/punto_negro.xml de fondo.
+         marginEnd = separacion entre el punto y el texto -->
+    <View
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/punto_negro" />
+
+    <TextView
+        android:id="@+id/tvCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+</LinearLayout>

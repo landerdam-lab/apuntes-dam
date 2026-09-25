@@ -1,41 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- DrawerLayout: la raiz. Tiene 2 hijos:
+     1o = la pantalla normal, 2o = el menu lateral que sale desde el borde -->
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/desplegable"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!-- Zona de arriba: ocupa todo el espacio que sobra -->
-    <FrameLayout
+    <!-- 1er hijo: la pantalla. LinearLayout vertical: arriba la Toolbar y debajo el contenedor.
+         Su id "main" lo usa el bloque EdgeToEdge de MainActivity -->
+    <LinearLayout
+        android:id="@+id/main"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <!-- Contenido de la pantalla -->
+        <!-- Barra morada de arriba. El boton de las 3 rayas lo pone MainActivity -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/purple_500"
+            app:titleTextColor="@color/white" />
+
+        <!-- Hueco donde MainActivity mete los fragmentos (Inicio, Mapa, Galeria).
+             height="0dp" + weight="1" = ocupa todo lo que sobra debajo de la Toolbar -->
         <FrameLayout
             android:id="@+id/contenedor"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
 
-        <!-- Burbuja que abre y cierra el menu (flota encima del contenido) -->
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab_menu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|end"
-            android:layout_margin="16dp"
-            android:contentDescription="@string/abrir_menu"
-            android:src="@drawable/ic_menu_black_24dp" />
-    </FrameLayout>
-
-    <!-- Menu de abajo: empieza oculto -->
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_nav_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
+    <!-- 2o hijo: el menu lateral.
+         layout_gravity="start" = sale por la izquierda.
+         app:headerLayout = la cabecera con la foto (res/layout/nav_header_main.xml)
+         app:menu = las opciones que muestra (res/menu/bottom_navigation.xml) -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/bottom_navigation" />
-</LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
